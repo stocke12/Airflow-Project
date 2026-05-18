@@ -1,0 +1,18 @@
+# OS specific files
+.DS_Store
+
+# Python build and cache artifacts
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data directories and logs
+data/out/
+*.log
+
+# Airflow local environment state
+airflow.db
+airflow.cfg
+unittests.cfg
